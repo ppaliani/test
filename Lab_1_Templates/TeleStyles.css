@@ -1,0 +1,125 @@
+body {
+    background-color: black;
+    background-image: url("../JWST\ Photos/Background3.gif");
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width: 390px) {
+}
+
+#graph {
+    display: flex;
+    justify-content: center;
+}
+
+#chartContainer {
+	box-shadow: 0px 0px 10px #fff;
+}
+
+#buttons {
+    margin: 20px;
+    display: flex;
+	column-gap: 10px;
+	justify-content: center;
+}
+
+#altitude {
+    background-color: #4f81bc;
+}
+
+#altitude:hover {
+    background-color: #5995da;
+}
+
+#distance {
+    background-color: #BD2B2B;
+}
+
+#distance:hover {
+    background-color: #D82F2F;
+}
+
+#velocity {
+    background-color: green;
+}
+
+#velocity:hover {
+    background-color: #259829;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    border-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: auto;
+    transition: all 0.2s;
+}
+
+button:hover {
+    width: 105px;
+    height: auto;
+    cursor: pointer;
+}
+
+#launch-data th {
+    background-color: rgb(22, 18, 49);
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+#launch-data td {
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+#launch-data tr:nth-child(even) {
+    background-color: rgb(22, 18, 49);
+  }
+
+#launch-data {
+    background-color: rgb(13, 11, 27);
+    border: 3px solid black;
+    border-collapse: collapse;
+    border-radius: 12px;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    margin-top: 10px;
+    max-width: 600px;
+    width: 100%;
+}
+
+#launch-data th:hover {
+    background-color: rgb(37, 31, 78);
+    cursor: default;
+}
+
+#launch-data td:hover {
+    background-color: rgb(37, 31, 78);
+    cursor: default;
+}
+
+footer > div{
+    background-color: aliceblue;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    width: 80px;
+}
+
+footer > div > a {
+    color: rgb(13, 11, 27);
+    text-decoration: none;
+    cursor: pointer;
+}
